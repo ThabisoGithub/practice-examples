@@ -1,0 +1,46 @@
+//LOOPS 
+for (var i = 0; i < 10;i++){
+    console.log(i);
+}
+
+//DATA TYPES(Numbers)
+== equal to
+!= not equal to
+
+//CONCATENATING
+"Test"+"Test"
+TestTest
+
+//ACCESSING CHARACTERS IN A STRING
+"James"[0]; or var name = "James";
+                name[0];
+Returns J
+
+//COMPARING STRINGS
+"Yes"=="YES"
+false
+var a = new String('foo');
+var b = new String('foo');
+a == b 
+True
+
+//NULL, UNDEFINED AND NAN
+null = datatype "value of nothing"
+undefine = datatype "absence of value"
+null e.g var x = null;
+undefined var x;
+           console.log(x);
+NAN - if you wrote some code that performed a math calculation, and the calculation failed to produce a valid number, NaN might be returned
+
+EQUALITY
+Example of strongly typed programming language code
+int count = 1;
+string name = "Julia";
+double num = 1.2932;
+float price = 2.99;
+Equivalent code in JavaScript
+// equivalent code in JavaScript
+var count = 1; 
+var name = "Julia";
+var num = 1.2932;
+var price = 2.99;
