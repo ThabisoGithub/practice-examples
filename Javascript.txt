@@ -1,3 +1,4 @@
+functions, objects, return statments, 
 //LOOPS 
 for (var i = 0; i < 10;i++){
     console.log(i);
@@ -44,3 +45,550 @@ var count = 1;
 var name = "Julia";
 var num = 1.2932;
 var price = 2.99;
+
+QUIZ SEMICOLON
+var thingOne = 12;
+var thingTwo = 10;
+Console.log(thingOne + " " + thingTwo);
+
+QUIZ WHATS MY NAME 
+var Firstname = Thabiso;
+var Secondname = Motsoane;
+var Fullname;
+Fullname = Firstname + Secondname;
+Console.log(Fullname);
+
+QUIZ OUT DINNER
+var firstOrder = 10.25;
+var secondOrder = 3.99;
+var thirdOrder = 7.15;
+var bill = firstOrder + secondOrder + thirdOrder;
+var tip = bill*0.15;
+var total = bill + tip;
+console.log("Bill: R" + bill);
+console.log("Tip: R" + tip);
+console.log("Total: R" + total);
+
+MAD LIBS
+var adjective1 = amazing;
+var adjective2 = fun;
+var adjective3 = entertainment;
+var madlib = "the into to javascript course is so" + adjective1 + " James and Julia are so" + adjective2 + " .I cannot wait to work through the rest of this" + adjective3 + " content!"
+
+ONE AWESOME?
+var Firstname
+var interest
+var hobby 
+var awesomeMessages
+
+LESSON 3
+CONDITIONAL STATMENTS
+var price = 15.00; //how much the hammer costs
+var money = 20;//how much money i have
+if(money >= price){
+    console.log("buy the hammer");
+}else {
+    console.log("dont buy the hammer");
+}
+
+ELSE IF STATMENTS
+//for more than 2 conditions
+var weather = "sunny";
+if (weather === "snow"){
+    console.log("Bring a coat.");
+}else if (weather === "rain"){
+    console.log("Bring a rain jacket");
+}else{
+    console.log("wear what you have on");
+}
+prints wear what you have on
+
+var number = 2;
+if (number%2==0)
+{
+    console.log("even number");
+}
+else
+{
+    console.log("Odd number");
+}
+
+MUSICAL GROUPS
+var musicians = 1;
+if (musicians <= 0){
+    console.log("not a group");
+}
+else if (musicians === 2){
+    console.log("duet");
+}
+else if (musicians === 3){
+    console.log("trio");
+}
+else if (musicians === 4){
+    console.log("quartet");
+}
+else if(musicians > 4){
+    console.log("this is a large group");
+}
+
+MURDER MYSTERY
+var room = "ballroom";
+var suspect = "Mr.Kalehoff";
+var weapon = "";
+var solved = "true";
+if (room === "dining room" && suspect==="Mr.Parkes"){
+    weapon = "knife";
+    solved = True;
+}else if (room === "gallery"){
+    weapon = "trophy";
+    solved = "True";
+}else if (room === "ballroom" && suspect==="Mr.Kalehoff"){
+    weapon = "pool stick";
+    solved = "True";
+}else {
+    weapon = "poision";
+    solved = "false";
+    }if (solved){
+        console.log(suspect + "did it in the " + room + "with the " + weapon + "!");
+    }
+
+    Logical operators
+    var colt = "not busy";
+    var weather = "nice";
+    if (colt === "not busy" && weather === "nice") {
+        console.log("go to the park");
+    }
+    operators   meaning     Example
+    &&          Logical AND value1&&value2 returns two if both values are true.
+    ||          Logical OR  value1||value2 returns true if either value or both values are true
+    !           Logical NOT !value1        returns the opposite of value1. if value is true then value one is false.
+    
+    Logical AND and OR
+    Logical AND 
+    A       B       A&&B
+    true    true    true
+    true    false   false
+    false   true    false
+    false   false   false
+    Logical OR
+    true    true    true
+    true    false   true
+    false   true    true
+    false   false   false
+
+checking your balance
+var balance 325.00;
+var checkBalance = true;
+var isActive = false;
+if (checkBalance === true){
+    if(isActive === true){
+        if(balance > 0){
+            console.log("your balance is R"+balance.toFixed(2)+".");
+        }
+        else if (balance === 0){
+            console.log("your acc is empty");
+        }
+        else {
+console.log("Your balance is negative. Please contact bank");
+        }}
+        else {
+            console.log("your acc is no longer active");
+        }
+        }
+        else{
+            console.log("Thank you have a nice day");
+        } ;
+
+        ICECREAM
+        var flavor = vanilla;
+        var vessel = cone;
+        var toppings = peanuts;
+        if (flavor === "vanilla" || flavor chocolate) && (vessel ==="cone" || bowl) && (toppings ==="sprinkles" || toppings "peanuts");
+ console.log("id like two scoops of " +Flavor+"ice cream in a" +vesell+" with"+toppings);
+
+ WHAT DO I wear
+var shirtWidth = 23;
+var shirtLength = 30;
+var shirtSleeve = 8.71;
+if ((shirtWidth >= 18 && shirtWidth < 20)
+    && (shirtLength >= 28 && shirtLength < 29)
+    && (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
+        console.log("S");
+    } else if ((shirtWidth >= 20 && shirtWidth < 22)
+            && (shirtLength >= 29 && shirtLength < 30)
+            && (shirtSleeve >= 8.38 && shirtSleeve < 8.63)) {
+        console.log("M");
+    } else if ((shirtWidth >= 22 && shirtWidth < 24)
+            && (shirtLength >= 30 && shirtLength < 31)
+            && (shirtSleeve >= 8.63 && shirtSleeve < 8.88)) {
+        console.log("L");
+    } else if ((shirtWidth >= 24 && shirtWidth < 26)
+            && (shirtLength >= 31 && shirtLength < 33)
+            && (shirtSleeve >= 8.88 && shirtSleeve < 9.63)) {
+        console.log("XL");
+    } else if ((shirtWidth >= 26 && shirtWidth < 28)
+            && (shirtLength >= 33 && shirtLength < 34)
+            && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)) {
+        console.log("2XL");
+    } else if (shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13) {
+        console.log("3XL");
+    } else console.log("N/A");
+
+TERNARY OPERATOR
+var isGoing = true;
+var color;
+if (isGoing){
+color = "green";
+}else {
+color = "red";
+}
+
+NAVIGATING THE FOOD CHAIN
+var eatsPlants = false;
+var eatsAnimals = true;
+var category = eatsPlants ? (eatsAnimals ? "omnivore" : "herbivore") : (eatsAnimals ? "carnivore" : undefined);
+console.log(category);
+
+SWITCH STATMENTS
+    example 1
+var option = 3;
+switch (option) {
+  case 1:
+    console.log("You selected option 1.");
+    break;
+  case 2:
+    console.log("You selected option 2.");
+    break;
+  case 3:
+    console.log("You selected option 3.");
+    break;
+  case 4:
+    console.log("You selected option 4.");
+    break;
+  case 5:
+    console.log("You selected option 5.");
+    break;
+  case 6:
+    console.log("You selected option 6.");
+    break; // technically, not needed
+}
+    Switch break example 2
+var month = 2;
+switch(month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    days = 31;
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    days = 30;
+    break;
+  case 2:
+    days = 28;}
+console.log("There are " + days + " days in this month.");
+Answer = 28 days in this month.
+
+FALLING THROUGH 
+var tier = "nsfw deck";
+var output = "You’ll receive "
+switch (tier) {
+  case "deck of legends":
+    output += "a custom card, ";
+  case "collector's deck":
+    output += "a signed version of the Exploding Kittens deck, ";
+  case "nsfw deck":
+    output += "one copy of the NSFW (Not Safe for Work) Exploding Kittens card game and ";
+  default:
+    output += "one copy of the Exploding Kittens card game.";
+}
+console.log(output);
+BACK TO SCHOOL
+var education = "no high school diploma";
+var salary = 0;
+switch (education){
+case "no high school diploma":
+salary = 25636;
+break;
+case "a high school diploma":
+salary = 35256;
+break;
+case "an Associate's degree":
+salary = 41496;
+break;
+case "a Bachelor's degree":
+salary = 59124;
+break;
+case "a Master's degree":
+salary = 69732;
+break;
+case "a Professional degree":
+salary = 89960;
+break;
+case "a DR degree":
+salary = 84396;
+break;
+}
+console.log ("In 2015, a person with " + education + " earned an average of $" + salary.toLocaleString("en-US") + "/year.");
+
+FUNCTIONS
+function sayHello() {
+  var message = "Hello!"
+  return message; // returns value instead of printing it
+}
+///////////
+function laugh() {
+    var sound = "hahahahahahahahahaha!";
+    return sound;
+}
+console.log (laugh());
+///////////
+function laugh(num) {
+    var message = "";
+    for (i = 0; i < num; i++) {
+        message += "ha";
+    }
+    return message + "!";
+}
+console.log(laugh(3));
+///////////
+
+SCOPE RECAP
+Global identifiers are a bad idea. They can lead to bad variable names, conflicting variable names, and messy code.
+
+HOISTING
+Javascript alwyas throws functions to the top when a script is run. So place your functions and variables 
+accordingly to avoid bugs.
+function sayHi(name){
+    var greeting = "hello";
+    console.log(greeting + " " + name);
+}
+sayHi("Julia");
+
+BUILD A TRIANGLE
+function makeLine(length){
+var line = "";
+for (var j = 1; j<= length; j++){
+line += "* ";
+}
+return line + "\n";
+}
+function buildTriangle(height){
+    var starTriangle = "";
+    for (var k = 1; k<= height ; k++){
+        starTriangle += makeLine(k);
+    }
+    return starTriangle;
+}
+console.log(buildTriangle(10));
+
+FUNCTION EXPERSSIONS
+your able to store functions in variables.
+var catSays =function(max){
+    var name = "test";
+    //Your code
+}
+return name;
+};
+how to call it
+catSays;
+Function experessions are not hoisted(that is a pro)
+
+FUNCTIONS AS PARAMETERS
+Storing a function in a variable makes it simple to pass the function into another function.
+A function called into another function is called a callback.
+
+QUIZ 5 4
+var laugh = function(times){
+    var hatimes = "";
+    while (times > 0){
+        hatimes += "ha";
+        times --;
+    }
+    hatimes= hatimes +"!";
+    return hatimes;
+}
+console.log(laugh(10));
+
+QUIZ 5 5
+var cry = function createCry(){
+    cryString = "Boohoo";
+    return cryString;
+};
+console.log(cry());
+
+QUIZ 5 6
+function emotions(myString, myFunc){
+    console.log("I am " + myString + ", " + myFunc(2));
+}
+emotions("happy", function(times){
+    var Hatimes="";
+    while (times > 0){
+        Hatimes += "ha";
+        times --;
+    }
+    Hatimes=Hatimes +"!";
+    return Hatimes;
+});
+
+ARRAYS
+var = Donuts ["chocolate", "vanilla", "cream"];
+var = passw [123, 2343, 3443];
+var = nestedarray [
+    [123, 435], 
+    [""thabiso", "test"]
+    ];
+
+ACCESSING ARRAYS
+var = Donuts ["chocolate", "vanilla", "cream"];
+console.log(Donuts[2]);
+QUIZ
+var = udaciFamily ["Julia", "James", "Thabiso"];
+console.log(udaciFamily);
+
+ARRAY LENGTH 
+var = Donuts ["chocolate", "vanilla", "cream"];
+console.log(Donuts.length);
+prints 3
+//use this for login scenario and report via array who you logged in with etc.
+
+PUSH ARRAY
+To add a new array element
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+donuts.push("powdered");
+
+POP ARRAY
+To remove the last element within an array set
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+donuts.pop();
+
+SPLICE
+Splice is another handy method that allows you to add and remove elements from anywhere within an array.
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+donuts.splice(1, 1, "chocolate cruller", "creme de leche");
+or
+var donuts = ["cookies", "cinnamon sugar", "creme de leche"];
+donuts.splice(-2, 0, "chocolate frosted", "glazed");
+
+QUIZ
+var rainbow = ["red", "orange", "blackberry", "blue"];
+rainbow.splice(2, 1, "Yellow", "green");
+rainbow.push("purple");
+console.log(rainbow);
+
+QUIZ
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+
+QUIZ I GOT BILLS
+var bills = [50.23, 19.12, 34.01,
+    100.11, 12.15, 9.90, 29.11, 12.99,
+    10.00, 99.22, 102.20, 100.10, 6.77, 2.22
+];
+var totals = bills.map(function(bill) {
+    bill = bill + (bill * 0.15);
+    bill = bill.toFixed( 2 );
+    return Number(bill);
+});
+console.log(totals);
+
+ARRAYS IN ARRAYS
+var bills = [
+    [50.23, 19.12, 34.01],
+    [100.11, 12.15, 9.90],
+    [10.00, 99.22, 102.20]
+];
+for (var r = 0; r < grid.length; r++){
+    for (var c = 0; c < grid[r].length; c++){
+        console.log(grid[r][c]);
+    }
+}
+
+OBJECTS
+UMBRELLA 7-1
+var umbrella = {
+    color: "pink",
+    isOpen: true,
+    open: function() {
+        if (umbrella.isOpen === true) {
+            return "The umbrella is already opened!";
+        } else {
+            umbrella.isOpen = true;
+            return "Julia opens the umbrella!";
+        }
+    },
+    close: function() {
+        if (umbrella.isOpen === false) {
+            return "The umbrella is already closed!";
+        } else {
+            umbrella.isOpen = false;
+            return "Julia closes the umbrella!"
+        }
+    }
+};
+
+OBJECT E.G
+var sister = {
+    name = "Kea",
+    age = 19,
+    pets = true,
+    height = 161
+};
+
+METHODS AND CALLING
+var sister = {
+  name: "Sarah",
+  age: 23,
+  parents: [ "alice", "andy" ],
+  siblings: ["julia"],
+  favoriteColor: "purple",
+  pets: true,
+  paintPicture: function() { return "Sarah paints!"; }
+};
+sister.paintPicture();
+prints Sarah paints
+
+NAMING CONVENTIONS
+var person = {
+    name : "John",
+    age  : 30,
+    children ["James", "Alex", "Jake"]//this is an array in an object
+    };
+person.children[1]
+"Alex"
+
+never start property names with numbers
+no spaces, hyphens or underscores.
+
+
+
+
+
+
+
+
+JAVASCRIPT TESTING
+with unit tests its all about managing expectations.
+expect 2 + 3 to be 5
+expect(add(2, 3)).toBe(5);
+expect an error if non numbers are added
+expect(add(2, "test")).toThrow("NAN");
+expect(add(0.1, 0.2)).toBe(0.3);
+
+Check Jasmine spec runner used to run multiple specs.
+
+
+
+
+
+
